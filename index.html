@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Design Introduction</title>
+</head>
+<body>
+    <header>
+        <h1>Introduction to Responsive Design</h1>
+    </header>
+    <main>
+        <section id="quiz-section">
+            <h2>Quiz: Importance of Responsive Design</h2>
+            <form id="quiz-form">
+                <label for="q1">Why is responsive design important?</label>
+                <select id="q1" name="q1">
+                    <option value="correct">Ensures a good user experience on all devices.</option>
+                    <option value="incorrect">It's just a trend.</option>
+                    <option value="incorrect">Saves server space.</option>
+                </select>
+                <br>
+                <button type="button" onclick="submitQuiz()">Submit</button>
+            </form>
+            <p id="quiz-result"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
